@@ -1,0 +1,25 @@
+name: turnkey_flutter
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bs58check: ^1.0.2
+  convert: ^3.1.2
+  pinenacl: ^0.6.0
+  pointycastle: ^3.9.1
+  http: ^1.1.0
+  crypto: ^3.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
